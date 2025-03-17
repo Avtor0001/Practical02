@@ -1,0 +1,33 @@
+.header{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header_logo{
+    width: 70px;
+    height: 43.75px;
+    margin-left: 135px;
+}
+
+.header_novigation{
+    margin-left: 330px;
+}
+
+.header_novigation_link{
+    font-size: 12px;
+    margin-right: 60px;
+    text-decoration: none;
+    color: black;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+}
+
+.header_novigation_link:hover{
+    border: 1px solid black;
+    transform: scaleX(1);
+    border-left: none;
+    border-right: none;
+}

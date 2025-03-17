@@ -1,0 +1,25 @@
+@import "./Block/header.scss";
+@import "./Block/cover.scss";
+@import "./Block/about.scss";
+@import "./Block/contactus.scss";
+@import "./Block/mainfocus.scss";
+@import "./Block/ourproject.scss";
+@import "./Block/information.scss";
+
+
+html, body {
+    margin: 0;
+    padding: 0;         
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto-Regular.ttf') format('ttf');
+    font-style: normal;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
