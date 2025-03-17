@@ -1,7 +1,71 @@
+%customWidth{
+    width: 210px;
+    height: 260px;
+}
+
 .gallery{
     width: 1170px;
-    height: 465px;
+    height: 800px;
     margin-left: 135px;
     margin-top: 150px;
-    background-color: black;
+    background-color: green;
+}
+
+.gallery_text1{
+    font-size: 64px;
+    color: gray;
+    
+}
+
+.gallery_text2{
+    font-size: 64px;
+    font-weight: bold;
+
+}
+
+.gallery_line{}
+
+.gallery_images{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gallery_images1{
+    @extend %customWidth
+}
+
+.gallery_images2{
+    @extend %customWidth
+}
+
+.gallery_images3{
+    @extend %customWidth
+}
+
+.gallery_images4{
+    @extend %customWidth
+}
+
+.gallery_images5{
+    @extend %customWidth
+}
+
+.gallery_images6{
+    @extend %customWidth
+}
+
+.gallery_images7{
+    @extend %customWidth
+}
+
+.gallery_images8{
+    @extend %customWidth
+}
+
+.gallery_images9{
+    @extend %customWidth
+}
+
+.gallery_images10{
+    @extend %customWidth
 }
