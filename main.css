@@ -54,7 +54,7 @@
   font-weight: bold;
 }
 
-.gallery_images10, .gallery_images9, .gallery_images8, .gallery_images7, .gallery_images6, .gallery_images5, .gallery_images4, .gallery_images3, .gallery_images2, .gallery_images1 {
+.gallery_images_img10, .gallery_images_img9, .gallery_images_img8, .gallery_images_img7, .gallery_images_img6, .gallery_images_img5, .gallery_images_img4, .gallery_images_img3, .gallery_images_img2, .gallery_images_img1 {
   width: 210px;
   height: 260px;
 }
@@ -80,6 +80,7 @@
 .gallery_images {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
 }
 
 .mainfocus {

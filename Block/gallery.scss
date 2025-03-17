@@ -23,49 +23,48 @@
 
 }
 
-.gallery_line{}
-
 .gallery_images{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
 }
 
-.gallery_images1{
-    @extend %customWidth
+.gallery_images_img1{
+    @extend %customWidth;
 }
 
-.gallery_images2{
-    @extend %customWidth
+.gallery_images_img2{
+    @extend %customWidth;
 }
 
-.gallery_images3{
-    @extend %customWidth
+.gallery_images_img3{
+    @extend %customWidth;
 }
 
-.gallery_images4{
-    @extend %customWidth
+.gallery_images_img4{
+    @extend %customWidth;
 }
 
-.gallery_images5{
-    @extend %customWidth
+.gallery_images_img5{
+    @extend %customWidth;
 }
 
-.gallery_images6{
-    @extend %customWidth
+.gallery_images_img6{
+    @extend %customWidth;
 }
 
-.gallery_images7{
-    @extend %customWidth
+.gallery_images_img7{
+    @extend %customWidth;
 }
 
-.gallery_images8{
-    @extend %customWidth
+.gallery_images_img8{
+    @extend %customWidth;
 }
 
-.gallery_images9{
-    @extend %customWidth
+.gallery_images_img9{
+    @extend %customWidth;
 }
 
-.gallery_images10{
-    @extend %customWidth
+.gallery_images_img10{
+    @extend %customWidth;
 }
