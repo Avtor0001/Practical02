@@ -24,12 +24,10 @@
   align-items: center;
 }
 
-.mainfocus_main1_text1 {
-  width: 104px;
+.mainfocus_main1_img1 {
   height: 140px;
-  font-size: 200px;
-  font-weight: bold;
-  color: gray;
+  width: auto;
+  margin-right: 10px;
 }
 
 .mainfocus_main1_text2 {
@@ -41,21 +39,18 @@
 
 .mainfocus_main2 {
   display: flex;
-  margin-left: 250px;
+  margin-left: 240px;
 }
 
-.mainfocus_main2_text1 {
-  width: 104px;
+.mainfocus_main2_img1 {
   height: 140px;
-  font-size: 200px;
-  font-weight: bold;
-  color: gray;
+  width: auto;
+  margin-right: 15px;
 }
 
 .mainfocus_main2_text2 {
   width: 279px;
   height: 144px;
-  margin-left: 20px;
   font-size: 22px;
   color: black;
 }/*# sourceMappingURL=mainfocus.css.map */
