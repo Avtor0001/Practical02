@@ -13,18 +13,50 @@
     margin-top: 58px;
 }
 
+.information_text_inf{
+    display: flex;
+    margin-top: 58px;
+}
+
 .information_text{
     width: 605px;
     height: 229px;
-    
+}
+
+.information_social{
+    margin-top: 58px;
 }
 
 
 .information_social_text{
     color: white;
+    font-weight: 22px;
 }
 
 .information_social_img{
     width: 193px;
     height: 20px;
+}
+
+.information_text_inf_firsttab{
+    color: white;
+    margin-left: 135px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.information_text_inf_lasttab{
+    color: white;
+    margin-left: 135px;
+}
+
+.information_text_inf_firsttab_mainword{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.information_text_inf_lasttab_mainword{
+    font-weight: bold;
+    font-size: 22px;
 }

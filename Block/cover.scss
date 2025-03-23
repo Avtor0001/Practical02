@@ -1,23 +1,27 @@
 .cover{
-    width: 1440px;
+    width: 100vw;
     height: 829px;
     display: flex;
     align-items: center;
 }
 
 .cover_text{
-    width: 400px;
-    margin-left: 135px;
+    width: 27.78vw;
+    margin-left: 9.38vw;
 }
 
 .cover_text1{
-    font-size: 64px;
+    font-size: 4.44vw;
     color: gray;
-
 
 }
 
 .cover_text2{
-    font-size: 64px;
+    font-size: 4.44vw;
     font-weight: bold;
+}
+
+.cover_img{
+    width: 53.47vw;
+    height: 57.57vw;
 }

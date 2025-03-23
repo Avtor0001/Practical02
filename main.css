@@ -1,18 +1,18 @@
 .header {
-  width: 1440px;
+  width: 100vw;
   height: 100px;
   display: flex;
   align-items: center;
 }
 
 .header_logo {
-  width: 70px;
-  height: 43.75px;
-  margin-left: 135px;
+  width: 4.86vw;
+  height: 3.04vw;
+  margin-left: 9.38vw;
 }
 
 .header_novigation {
-  margin-left: 330px;
+  margin-left: 22.92vw;
 }
 
 .header_novigation_link {
@@ -33,25 +33,30 @@
 }
 
 .cover {
-  width: 1440px;
+  width: 100vw;
   height: 829px;
   display: flex;
   align-items: center;
 }
 
 .cover_text {
-  width: 400px;
-  margin-left: 135px;
+  width: 27.78vw;
+  margin-left: 9.38vw;
 }
 
 .cover_text1 {
-  font-size: 64px;
+  font-size: 4.44vw;
   color: gray;
 }
 
 .cover_text2 {
-  font-size: 64px;
+  font-size: 4.44vw;
   font-weight: bold;
+}
+
+.cover_img {
+  width: 53.47vw;
+  height: 57.57vw;
 }
 
 .gallery_images_img10, .gallery_images_img9, .gallery_images_img8, .gallery_images_img7, .gallery_images_img6, .gallery_images_img5, .gallery_images_img4, .gallery_images_img3, .gallery_images_img2, .gallery_images_img1 {
@@ -63,7 +68,7 @@
 .gallery {
   width: 1170px;
   height: 800px;
-  margin-left: 135px;
+  margin-left: 9.38vw;
   margin-top: 150px;
 }
 
@@ -91,7 +96,7 @@
 .mainfocus {
   width: 1170px;
   height: 268px;
-  margin-left: 135px;
+  margin-left: 9.38vw;
   margin-top: 100px;
 }
 
@@ -160,18 +165,51 @@
   margin-top: 58px;
 }
 
+.information_text_inf {
+  display: flex;
+  margin-top: 58px;
+}
+
 .information_text {
   width: 605px;
   height: 229px;
 }
 
+.information_social {
+  margin-top: 58px;
+}
+
 .information_social_text {
   color: white;
+  font-weight: 22px;
 }
 
 .information_social_img {
   width: 193px;
   height: 20px;
+}
+
+.information_text_inf_firsttab {
+  color: white;
+  margin-left: 135px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.information_text_inf_lasttab {
+  color: white;
+  margin-left: 135px;
+}
+
+.information_text_inf_firsttab_mainword {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.information_text_inf_lasttab_mainword {
+  font-weight: bold;
+  font-size: 22px;
 }
 
 html, body {
