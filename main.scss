@@ -22,3 +22,23 @@ html, body {
 html {
     font-family: 'Roboto', sans-serif;
 }
+
+
+.forpc {
+    display: block;
+}
+
+.formobile {
+    display: none;
+}   
+
+
+@media (max-width: 376px){
+    .forpc {
+        display: none;
+    }
+    
+    .formobile {
+        display: block; 
+    }
+}   

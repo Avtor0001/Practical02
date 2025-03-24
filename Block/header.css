@@ -36,4 +36,19 @@
   .header_novigation {
     margin-left: 9.92vw;
   }
+}
+@media (max-width: 376px) {
+  .header {
+    width: 100vw;
+    height: 100px;
+  }
+  .header_logo_img {
+    margin-left: 40px;
+  }
+  .header_novigation {
+    margin-left: 200px;
+  }
+  .header_line {
+    width: 90%;
+  }
 }/*# sourceMappingURL=header.css.map */

@@ -34,3 +34,25 @@
         align-items: center;
     }
 }
+
+@media (max-width: 376px){
+    .cover{
+        width: 100vw;
+        height: 329px;
+        margin-top: 50px;
+        display: block;
+        margin-left: 80px;
+    }
+
+    .cover_img{
+        margin-top: 20px;
+    }
+
+    .cover_text{
+        margin-left: 60px;
+    }
+
+    .cover_text2{
+        margin-left: 10px;
+    }
+}
