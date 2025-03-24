@@ -25,3 +25,12 @@
     width: 53.47vw;
     height: 57.57vw;
 }
+
+@media (max-width: 768px){
+    .cover{
+        width: 100vw;
+        height: 529px;
+        display: flex;
+        align-items: center;
+    }
+}

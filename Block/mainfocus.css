@@ -53,4 +53,41 @@
   height: 144px;
   font-size: 22px;
   color: black;
+}
+
+@media (max-width: 1400px) {
+  .mainfocus_main {
+    width: 81.25vw;
+    height: 268px;
+    margin-left: 0;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .mainfocus {
+    width: 768px;
+    height: 468px;
+    margin-left: 9.38vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .mainfocus_main2 {
+    display: flex;
+    margin-left: 16.67vw;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .mainfocus {
+    width: 768px;
+    height: 368px;
+    margin-left: 9.38vw;
+    margin-top: 100px;
+  }
+  .mainfocus_main2 {
+    display: flex;
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=mainfocus.css.map */

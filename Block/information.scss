@@ -1,5 +1,5 @@
 .information{
-    width: 1440px;
+    width: 100vw;
     height: 417px;
     margin-top: 100px;
     background-color: #2c2c2c;
@@ -7,9 +7,9 @@
 }
 
 .information_logo{
-    width: 145px;
-    height: 94px;
-    margin-left: 116px;
+    width: 10.07vw;
+    height: 6.53vw;
+    margin-left: 8.06vw;
     margin-top: 58px;
 }
 
@@ -19,28 +19,30 @@
 }
 
 .information_text{
-    width: 605px;
-    height: 229px;
+    width: 42.01vw;
+    height: 15.90vw;
 }
 
 .information_social{
     margin-top: 58px;
+    margin-left: 10.42vw;
 }
 
 
 .information_social_text{
     color: white;
-    font-weight: 22px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .information_social_img{
-    width: 193px;
-    height: 20px;
+    width: 13.40vw;
+    height: 1.39vw;
 }
 
 .information_text_inf_firsttab{
     color: white;
-    margin-left: 135px;
+    margin-left: 9.38vw;
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -48,7 +50,7 @@
 
 .information_text_inf_lasttab{
     color: white;
-    margin-left: 135px;
+    margin-left: 9.38vw;
 }
 
 .information_text_inf_firsttab_mainword{

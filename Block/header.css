@@ -17,7 +17,7 @@
 
 .header_novigation_link {
   font-size: 12px;
-  margin-right: 60px;
+  margin-right: 4.17vw;
   text-decoration: none;
   color: black;
   transform: scaleX(0);
@@ -30,4 +30,10 @@
   transform: scaleX(1);
   border-left: none;
   border-right: none;
+}
+
+@media (max-width: 768px) {
+  .header_novigation {
+    margin-left: 9.92vw;
+  }
 }/*# sourceMappingURL=header.css.map */

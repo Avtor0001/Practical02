@@ -1,6 +1,6 @@
 .ourproject{
-    width: 1170px;
-    height: 765px;
+    width: 81.25vw;
+    height: 53.13vw;
     margin-left: 9.38vw;
     margin-top: 100px;
     position: relative;
@@ -14,22 +14,26 @@
 }
 
 .ourproject_img{
-    width: 1170px;
+    width: 81.25vw;
     width: 540px;
 }
 
 .ourproject_button{
-    width: 222px;
-    height: 71px;
+    width: 15.42vw;
+    height: 4.93vw;
     background-color: black;
     color: white;
     border-radius: 0;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 0%;
+    bottom: 0%;
     align-items: center;
 }
 
+.ourproject_button_img{
+    width: 9.93vw;
+    height: 1.67vw;
+}
 
 .projects-grid {
     width: 81.25vw;

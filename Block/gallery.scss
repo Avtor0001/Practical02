@@ -12,13 +12,13 @@
 }
 
 .gallery_text1{
-    font-size: 64px;
+    font-size: 4.44vw;
     color: gray;
     
 }
 
 .gallery_text2{
-    font-size: 64px;
+    font-size: 4.44vw;
     font-weight: bold;
 
 }
@@ -75,3 +75,71 @@
     @extend %customWidth;
 }
 
+@media (max-width: 768px){
+    .gallery{
+        width: 700px;
+        height: 960px;
+        margin-left: 4.28vw;
+        margin-top: 40px;
+    }
+
+    .gallery_images{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 равные колонки */
+        grid-auto-rows: auto; /* Высота по содержимому */
+        gap: 15px; /* Отступы между картинками */
+    }
+
+    .gallery_images_img1{
+        @extend %customWidth;
+        break-inside: avoid;
+    }
+    
+    .gallery_images_img2{
+        @extend %customWidth;
+        break-inside: avoid;
+        transform: translateY(100px);
+    }
+    
+    .gallery_images_img3{
+        @extend %customWidth;
+        break-inside: avoid;
+    }
+    
+    .gallery_images_img4{
+        @extend %customWidth;
+        break-inside: avoid;
+    }
+    
+    .gallery_images_img5{
+        @extend %customWidth;
+        break-inside: avoid;
+        transform: translateY(100px);
+    }
+    
+    .gallery_images_img6{
+        @extend %customWidth;
+        break-inside: avoid;
+    }
+    
+    .gallery_images_img7{
+        @extend %customWidth;
+        break-inside: avoid;
+    }
+    
+    .gallery_images_img8{
+        @extend %customWidth;
+        break-inside: avoid;
+        transform: translateY(100px);
+    }
+    
+    .gallery_images_img9{
+        @extend %customWidth;
+        break-inside: avoid;
+    }
+    
+    .gallery_images_img10{
+        display: none;
+    }
+}
