@@ -74,4 +74,66 @@
 .small-right {
   grid-column: 4; /* 4 колонка */
   grid-row: 2;
+}
+
+@media (max-width: 376px) {
+  .ourproject {
+    width: 81.25vw;
+    height: 200.13vw;
+    margin-left: 9.38vw;
+    margin-top: 150px;
+    position: relative;
+  }
+  .ourproject_text {
+    font-size: 30px;
+    color: gray;
+  }
+  .ourproject_button {
+    width: 305px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    position: absolute;
+    align-items: center;
+  }
+  .ourproject_button_img {
+    width: 150px;
+    height: 20px;
+  }
+  .projects-grid {
+    width: 81.25vw;
+    height: 37.5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .wide-left, .wide-right, .small, .medium, .small-right {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .wide-left {
+    grid-column: 1/span 2; /* Первые 2 колонки */
+    grid-row: 1;
+  }
+  .wide-right {
+    grid-column: 1/span 2; /* Последние 2 колонки */
+    grid-row: 2;
+  }
+  .small {
+    grid-column: 1; /* 1 колонка */
+    grid-row: 3;
+  }
+  .medium {
+    grid-column: 1/span 2; /* 2 и 3 колонки */
+    grid-row: 4;
+  }
+  .small-right {
+    grid-column: 2; /* 2 колонка */
+    grid-row: 3;
+  }
 }/*# sourceMappingURL=ourproject.css.map */

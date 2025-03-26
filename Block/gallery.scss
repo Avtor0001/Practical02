@@ -1,6 +1,6 @@
 %customWidth{
-    width: 210px;
-    height: 260px;
+    width: 14.58vw;
+    height: 18.06vw;
     border-radius: 5%;
 }
 
@@ -31,7 +31,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
+    gap: 2.08vw;
 }
 
 
@@ -76,6 +76,11 @@
 }
 
 @media (max-width: 768px){
+    %customWidh{
+        width: 210px;
+        height: 260px;
+        border-radius: 5%;
+    }
     .gallery{
         width: 700px;
         height: 960px;
@@ -92,54 +97,137 @@
     }
 
     .gallery_images_img1{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
     }
     
     .gallery_images_img2{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
         transform: translateY(100px);
     }
     
     .gallery_images_img3{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
     }
     
     .gallery_images_img4{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
     }
     
     .gallery_images_img5{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
         transform: translateY(100px);
     }
     
     .gallery_images_img6{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
     }
     
     .gallery_images_img7{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
     }
     
     .gallery_images_img8{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
         transform: translateY(100px);
     }
     
     .gallery_images_img9{
-        @extend %customWidth;
+        @extend %customWidh;
         break-inside: avoid;
     }
     
     .gallery_images_img10{
         display: none;
     }
+}
+
+
+@media (max-width: 376px){
+    %customWidt{
+        width: 310px;
+        height: 360px;
+        border-radius: 5%;
+    }
+
+    .galleryy{
+        width: 375px;
+        height: 2410px;
+        margin-left: 9.38vw;
+        margin-top: 150px;
+    }
+    
+    .galleryy_text1{
+        font-size: 7.44vw;
+        color: gray;
+        
+    }
+    
+    .galleryy_text2{
+        font-size: 7.44vw;
+        font-weight: bold;
+    
+    }
+    
+    .galleryy_line{
+        margin-left: 0;
+        width: 82%;
+        color: #f2f2f2;
+    }
+    
+    .galleryy_images{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    
+    
+    .galleryy_images_img1{
+        @extend %customWidt;
+    }
+    
+    .galleryy_images_img2{
+        @extend %customWidt;
+    }
+    
+    .galleryy_images_img3{
+        @extend %customWidt;
+    }
+    
+    .galleryy_images_img4{
+        @extend %customWidt;
+    }
+    
+    .galleryy_images_img5{
+        @extend %customWidt;
+    }
+    
+    .galleryy_images_img6{
+        @extend %customWidt;
+    }
+    
+    .galleryy_images_img7{
+        display: none;
+    }
+    
+    .galleryy_images_img8{
+        display: none;
+    }
+    
+    .galleryy_images_img9{
+        display: none;
+    }
+    
+    .galleryy_images_img10{
+        display: none;
+    }
+    
 }

@@ -26,6 +26,10 @@
     height: 57.57vw;
 }
 
+.cover_numeration{
+    margin-top: 150px;
+}
+
 @media (max-width: 768px){
     .cover{
         width: 100vw;
@@ -55,4 +59,10 @@
     .cover_text2{
         margin-left: 10px;
     }
+
+    .cover_numeration{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
 }

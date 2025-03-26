@@ -102,9 +102,32 @@
 
 @media (max-width: 376px){
     .mainfocus{
-        width: 768px;
+        width: 376px;
         height: 368px;
         margin-left: 3.38vw;
         margin-top: 100px;
+    }
+
+    .mainfocus_text{
+        width: 881px;
+        height: 64px;
+        font-size: 30px;
+        color: gray;
+    }
+
+    .mainfocus_main1_text2{
+        width: 239px;
+        height: 144px;
+        font-size: 20px;
+        color: black;
+        margin-left: 40px;
+    }
+
+    .mainfocus_main2_text2{
+        width: 239px;
+        height: 144px;
+        font-size: 20px;
+        color: black;
+
     }
 }
