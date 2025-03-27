@@ -474,7 +474,7 @@
   }
   .ourproject_button_img {
     width: 150px;
-    height: 20px;
+    height: 25px;
   }
   .projects-grid {
     width: 81.25vw;
@@ -539,7 +539,7 @@
 
 .information_social {
   margin-top: 58px;
-  margin-left: 10.42vw;
+  margin-left: 15.42vw;
 }
 
 .information_social_text {
@@ -563,7 +563,14 @@
 
 .information_text_inf_lasttab {
   color: white;
-  margin-left: 9.38vw;
+  margin-left: 6.38vw;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.information_text_inf_lasttab_mainword_mini {
+  margin-right: 10px;
 }
 
 .information_text_inf_firsttab_mainword {
@@ -576,6 +583,39 @@
   font-size: 22px;
 }
 
+@media (max-width: 376px) {
+  .informationn_text {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .informationn {
+    width: 375px;
+    height: 300px;
+    margin-top: 100px;
+    background-color: #2c2c2c;
+    display: flex;
+  }
+  .informationn_social_text {
+    width: 200px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .informationn_social_img {
+    width: 200px;
+    height: 20px;
+  }
+  .informationn_logo {
+    width: 100px;
+    height: 40px;
+    margin-left: 8.06vw;
+    margin-top: 30px;
+  }
+}
 html, body {
   margin: 0;
   padding: 0;
